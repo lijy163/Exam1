@@ -1,0 +1,8 @@
+
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ÇÜñœ
+Wsquid:S22595"@A "NullPointerException" could be thrown; "rs" is nullable here.(ÅÌ”Ù
+?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

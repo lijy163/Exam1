@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.hand.servlet.HelloWorld</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LandingServlet</servlet-name>
+        <servlet-class>com.hand.servlet.LandingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LandingServlet</servlet-name>
+        <url-pattern>/LandingServlet</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>filterDemo</filter-name>
+        <filter-class>com.hand.Filter.FilterDemo</filter-class>
+        <init-param>
+            <param-name>param</param-name>
+            <param-value>filterDemoValue</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>filterDemo</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>
